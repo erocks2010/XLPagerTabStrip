@@ -23,9 +23,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tFG-yJ-6Th">
-                        <rect key="frame" x="59" y="2.5" width="10" height="35"/>
+                        <rect key="frame" x="62" y="2.5" width="6" height="35"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="10" id="VRw-5F-5WY"/>
+                            <constraint firstAttribute="width" constant="6" id="VRw-5F-5WY"/>
                             <constraint firstAttribute="height" constant="35" id="ojk-Ug-Lgh"/>
                         </constraints>
                     </imageView>
@@ -33,7 +33,7 @@
             </view>
             <color key="backgroundColor" red="0.027450980390000001" green="0.72549019609999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="tFG-yJ-6Th" firstAttribute="leading" secondItem="s7f-rk-sQl" secondAttribute="trailing" id="3kE-cB-Z5c"/>
+                <constraint firstItem="tFG-yJ-6Th" firstAttribute="leading" secondItem="s7f-rk-sQl" secondAttribute="trailing" constant="3" id="3kE-cB-Z5c"/>
                 <constraint firstItem="tFG-yJ-6Th" firstAttribute="centerY" secondItem="zg4-fX-zUF" secondAttribute="centerY" id="5so-ZP-gRs"/>
                 <constraint firstItem="s7f-rk-sQl" firstAttribute="centerY" secondItem="zg4-fX-zUF" secondAttribute="centerY" id="ZeP-6I-AXE"/>
                 <constraint firstItem="s7f-rk-sQl" firstAttribute="centerX" secondItem="zg4-fX-zUF" secondAttribute="centerX" id="c15-bZ-hPG"/>
