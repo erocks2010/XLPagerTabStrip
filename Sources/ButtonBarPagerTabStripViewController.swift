@@ -323,8 +323,14 @@ open class ButtonBarPagerTabStripViewController: PagerTabStripViewController, Pa
         if let image = indicatorInfo.image {
             cell.imageView.image = image
         }
+        else{
+            cell.imageView.image = nil
+        }
         if let highlightedImage = indicatorInfo.highlightedImage {
             cell.imageView.highlightedImage = highlightedImage
+        }
+        else{
+            cell.imageView.highlightedImage = nil
         }
 
         configureCell(cell, indicatorInfo: indicatorInfo)
